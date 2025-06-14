@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Транспортный Парк</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Транспортный Парк</h1>
+
+    <form id="vehicleForm">
+      <select id="type">
+        <option value="car">Машина</option>
+        <option value="truck">Грузовик</option>
+      </select>
+      <input type="text" id="brand" placeholder="Марка" required>
+      <input type="number" id="wheels" placeholder="Кол-во колёс" required>
+      <input type="number" id="capacity" placeholder="Грузоподъемность (т)" required>
+      <button type="submit">Добавить</button>
+    </form>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
