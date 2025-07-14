@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валютный конвертер</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="loader" id="loader">
+            <div class="spinner"></div>
+        </div>
+        <h1>Валютный конвертер</h1>
+        
+        <div class="converter">
+            <div class="currency-input">
+                <div class="flag-container">
+                    <img id="flag1" src="" alt="Флаг" class="flag">
+                </div>
+                <select id="currency1" class="currency-select">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="RUB">RUB</option>
+                    <option value="JPY">JPY</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CAD">CAD</option>
+                    <option value="AUD">AUD</option>
+                    <option value="CNY">CNY</option>
+                </select>
+                <input type="number" id="amount1" class="amount-input" placeholder="Введите сумму">
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="currency-input">
+                <div class="flag-container">
+                    <img id="flag2" src="" alt="Флаг" class="flag">
+                </div>
+                <select id="currency2" class="currency-select">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="RUB">RUB</option>
+                    <option value="JPY">JPY</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CAD">CAD</option>
+                    <option value="AUD">AUD</option>
+                    <option value="CNY">CNY</option>
+                </select>
+                <input type="number" id="amount2" class="amount-input" placeholder="Результат" readonly>
+            </div>
+        </div>
+
+        <div class="exchange-rate">
+            <p>Курс обмена: <span id="rate"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

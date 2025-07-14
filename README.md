@@ -4,7 +4,31 @@ Welcome to this collection of educational JavaScript examples! This repository c
 
 ## Projects
 
-### 1. Vehicle Park
+### 1. Media Queries
+A responsive to-do list application that demonstrates CSS media queries and responsive design principles.
+- **Location**: `/media-queries/`
+- **Files**:
+  - `index.html` - The main HTML structure
+  - `style.css` - Responsive styling using CSS variables and media queries
+  - `index.js` - JavaScript functionality for managing to-do items
+
+### 2. Currency Converter
+A web application that allows users to convert between different currencies.
+- **Location**: `/currency-converter/`
+- **Files**:
+  - `index.html` - The currency conversion interface
+  - `style.css` - Styling for the converter
+  - `index.js` - Currency conversion logic
+
+### 3. Quotes
+A web application that displays random quotes and allows users to share them.
+- **Location**: `/quotes/`
+- **Files**:
+  - `index.html` - The quotes display interface
+  - `style.css` - Styling for the quotes application
+  - `index.js` - Quote generation and sharing functionality
+
+### 4. Vehicle Park
 A simple web application that demonstrates DOM manipulation and event handling in JavaScript.
 - **Location**: `/vehicles/`
 - **Files**:
@@ -12,7 +36,7 @@ A simple web application that demonstrates DOM manipulation and event handling i
   - `style.css` - Styling for the application
   - `script.js` - JavaScript functionality for managing vehicles
 
-### 2. Calculator
+### 5. Calculator
 A basic calculator web application that showcases fundamental JavaScript operations and event handling.
 - **Location**: `/calculator/`
 - **Files**:
@@ -20,7 +44,7 @@ A basic calculator web application that showcases fundamental JavaScript operati
   - `calculatorStyles.css` - Styling for the calculator
   - `calculatorScript.js` - Calculator logic
 
-### 3. OOP Principles
+### 6. OOP Principles
 Examples demonstrating Object-Oriented Programming concepts in JavaScript.
 - **Location**: `/oop-principles/`
 - **Files**:
