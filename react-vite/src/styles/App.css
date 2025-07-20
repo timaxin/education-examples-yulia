@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 2rem;
+  margin: 0 0 20px 0;
+  color: #556581;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .result-input {
+    width: 120px;
+    font-size: 1.5em;
+  }
+  
+  .App h1 {
+    font-size: 1.5rem;
+  }
+}

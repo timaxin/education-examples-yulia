@@ -1,0 +1,73 @@
+button {
+  background: transparent;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 15px;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.05s ease-in-out;
+  min-width: 80px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+button.minus {
+  background-color: #e63946;
+  color: #fff;
+  box-shadow: 0 4px 0;
+  border: 2px solid black;
+}
+
+button.plus {
+  background-color: #2a9d8f;
+  color: #fff;
+  box-shadow: 0 4px 0;
+  border: 2px solid black;
+}
+
+button.reset {
+  background-color: #ffbe0b;
+  color: #000;
+  box-shadow: 0 4px 0;
+  border: 2px solid black;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: none !important;
+}
+
+button.plus-ten {
+  background-color: #0048ff;
+  color: #fff;
+  box-shadow: 0 4px 0;
+  border: 2px solid black;
+}
+
+button.minus-ten {
+  background-color: #0048ff;
+  color: #fff;
+  box-shadow: 0 4px 0;
+  border: 2px solid black;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  button {
+    font-size: 18px;
+    padding: 8px 20px;
+    min-width: 70px;
+    margin: 5px;
+  }
+}
