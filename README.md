@@ -18,9 +18,17 @@ A web application that allows users to convert between different currencies.
 - **Files**:
   - `index.html` - The currency conversion interface
   - `style.css` - Styling for the converter
-  - `index.js` - Currency conversion logic
 
-### 3. Quotes
+### 3. Star Wars API Explorer
+An interactive application that fetches and displays information about the Star Wars universe using the SWAPI (Star Wars API).
+- **Location**: `/star-wars/`
+- **Files**:
+  - `index.html` - The main interface to explore Star Wars data
+  - `style.css` - Styling with a Star Wars theme
+  - `app.js` - JavaScript code to fetch and display data from the Star Wars API
+  - `README.md` - Project documentation and setup instructions
+
+### 4. Quotes
 A web application that displays random quotes and allows users to share them.
 - **Location**: `/quotes/`
 - **Files**:
@@ -28,7 +36,7 @@ A web application that displays random quotes and allows users to share them.
   - `style.css` - Styling for the quotes application
   - `index.js` - Quote generation and sharing functionality
 
-### 4. Vehicle Park
+### 5. Vehicle Park
 A simple web application that demonstrates DOM manipulation and event handling in JavaScript.
 - **Location**: `/vehicles/`
 - **Files**:
@@ -36,7 +44,7 @@ A simple web application that demonstrates DOM manipulation and event handling i
   - `style.css` - Styling for the application
   - `script.js` - JavaScript functionality for managing vehicles
 
-### 5. Calculator
+### 6. Calculator
 A basic calculator web application that showcases fundamental JavaScript operations and event handling.
 - **Location**: `/calculator/`
 - **Files**:
@@ -44,7 +52,7 @@ A basic calculator web application that showcases fundamental JavaScript operati
   - `calculatorStyles.css` - Styling for the calculator
   - `calculatorScript.js` - Calculator logic
 
-### 6. OOP Principles
+### 7. OOP Principles
 Examples demonstrating Object-Oriented Programming concepts in JavaScript.
 - **Location**: `/oop-principles/`
 - **Files**:
